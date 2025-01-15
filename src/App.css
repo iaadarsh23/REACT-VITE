@@ -2,9 +2,11 @@
 	margin: 0 auto;
 	padding: 2rem;
 	text-align: center;
-	background-color: aqua;
 	width: 100vw;
 	height: 100vh;
+	background-color: #2f2f2f;
+	background-size: cover;
+	background-position: center;
 }
 
 .logo {
@@ -41,4 +43,25 @@
 
 .read-the-docs {
 	color: #888;
+}
+h1 {
+	color: white; /* Makes text white */
+	font-size: 20px;
+	text-align: center;
+}
+h2 {
+	color: white; /* Makes text white */
+	font-size: 20px;
+}
+
+ul {
+	color: white; /* Adjust for list items */
+	list-style: none; /* Optional: Remove bullet points */
+	font-size: 20px;
+}
+
+li {
+	margin: 0.5rem 0; /* Adds spacing between list items */
+
+	font-size: 20px;
 }
