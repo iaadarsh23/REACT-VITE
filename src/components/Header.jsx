@@ -1,4 +1,15 @@
 function MyHeader() {
-	return <img src="/images/react.svg" width="80px"></img>;
+	return (
+		<>
+			<div className="nav-bar">
+				<img className="react-logo" src="/src/assets/react.svg"></img>
+				<ul className="nav-list">
+					<li>Pricing</li>
+					<li>About</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+		</>
+	);
 }
 export default MyHeader;
