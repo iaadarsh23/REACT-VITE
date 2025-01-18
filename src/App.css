@@ -4,7 +4,10 @@
 	color: rgb(0, 0, 0);
 	width: 100vw;
 	height: 100vh;
-	background-color: #eddfbe;
+	background-image: url("/public/images/cool-background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
 }
 
 h1 {
